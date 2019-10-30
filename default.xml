@@ -788,9 +788,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
-
+  
   <!-- Add all tracked DU/AOSP repos -->
   <include name="wcroms.xml" />
 
